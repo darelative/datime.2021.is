@@ -7,7 +7,7 @@ This is a project is based on fresh [Svelte](https://svelte.dev) and [Sapper](ht
 Install the dependencies...
 
 ```bash
-npm install -g degit rollup
+npm install -g degit rollup vercel
 npx degit "sveltejs/sapper-template#rollup" _app
 cd _app 
 nvm use 12.10.0
