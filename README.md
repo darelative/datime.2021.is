@@ -47,6 +47,23 @@ If you're building a single-page app (SPA) with multiple routes, sirv needs to b
 "start": "sirv public --single"
 ```
 
+## Adding Vercel & Capacitor
+
+By following this [first](https://www.npmjs.com/package/vercel-sapper) and this [second](https://capacitorjs.com/solution/svelte) link.
+
+```bash
+cd _app
+npx vercel-sapper
+npm install @capacitor/core @capacitor/cli
+npx cap init 'daTime.is' 'is.datime.app' --web-dir='__sapper__/export'
+npm run export
+npx cap add android
+npx cap add ios
+npx cap add electron
+npm run build
+rm scripts/setupTypeScript.js
+```
+
 ## Using TypeScript
 
 This template comes with a script to set up a TypeScript development environment, you can run it immediately after cloning the template with:

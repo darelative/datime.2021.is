@@ -12,6 +12,10 @@
     "start": "node __sapper__/build"
   },
   "dependencies": {
+    "@capacitor/android": "^2.4.7",
+    "@capacitor/cli": "^2.4.7",
+    "@capacitor/core": "^2.4.7",
+    "@capacitor/ios": "^2.4.7",
     "compression": "^1.7.1",
     "polka": "next",
     "sirv": "^1.0.0"

@@ -1,0 +1,13 @@
+{
+  "appId": "is.datime.app",
+  "appName": "daTime.is",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "__sapper__/export",
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 0
+    }
+  },
+  "cordova": {}
+}

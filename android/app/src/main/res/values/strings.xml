@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">daTime.is</string>
+    <string name="title_activity_main">daTime.is</string>
+    <string name="package_name">is.datime.app</string>
+    <string name="custom_url_scheme">is.datime.app</string>
+</resources>
